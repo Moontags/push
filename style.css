@@ -2,7 +2,7 @@ html { color-scheme: dark;}
 
 body {
     margin: 0;
-    padding: 2rem;
+    padding: 0;
     color: white;
     font-size: 1.125rem;
     font-family: system-ui;
@@ -38,7 +38,7 @@ table {
     border-collapse: collapse;
     background: #323232;
     padding: 1rem;
-    margin: 1rem;
+    margin-bottom: 2rem;
     color: rgb(218, 234, 247);
 }
 
@@ -49,6 +49,7 @@ table {
 
 table th {
     background-color: darkblue;
+    
 }
 
 .table tbody tr:nth-child(even) {
@@ -57,7 +58,7 @@ table th {
 
 @media (max-width: 500px) {
     .table thead {
-        display: block; 
+       
         width: 100%;
       
     }
