@@ -47,11 +47,13 @@ table th {
     background-color: #1e1d1d;
 }
 
-@media(max-width: 500px) {
+@media (max-width: 500px) {
     .table thead {
-        display: none;
+        display: table-header-group; 
+        width: 100%;
+      
     }
-    .table, .table tbody, table tr, table td {
+    .table, .table tbody, table tr, table td   {
         display: block;
         width: 100%;
     }
