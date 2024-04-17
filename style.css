@@ -62,7 +62,6 @@ table th {
       
     }
     .table, .table tbody, table tr, table td   {
-        display: block;
         width: 100%;
     }
     .table rd {
