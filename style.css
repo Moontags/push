@@ -1,0 +1,55 @@
+html { color-scheme: dark;}
+
+body {
+    margin: 0;
+    padding: 2rem;
+    color: white;
+    font-size: 1.125rem;
+    font-family: system-ui;
+    line-height: 1.5;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+h1 {
+    font-size: 45px;
+    text-align: center;
+}
+
+table {
+    text-align: center;
+    width: 100%;
+    border-collapse: collapse;
+    background: #323232;
+    padding: 1rem;
+    margin: 1rem;
+}
+
+.table td, table th {
+    padding: 1rem;
+    border: 1px solid aliceblue;
+}
+
+table th {
+    background-color: darkblue;
+}
+
+.table tbody tr:nth-child(even) {
+    background-color: #1e1d1d;
+}
+
+@media(max-width: 500px) {
+    .table thead {
+        display: none;
+    }
+    .table, .table tbody, table tr, table td {
+        display: block;
+        width: 100%;
+    }
+    .table rd {
+        margin-bottom: 1rem;
+    }
+
+}
