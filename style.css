@@ -57,14 +57,21 @@ table th {
 }
 
 @media (max-width: 500px) {
+
+    
     .table thead {
-       
+        display: block;
         width: 100%;
       
     }
+
+    td[data-label="1"] {
+        display: block;
+        width: 100%;
+    }
     .table, .table tbody, table tr, table td   {
         width: 100%;
-       
+       display: block;
     }
     .table rd {
         margin-bottom: 1.5rem;
