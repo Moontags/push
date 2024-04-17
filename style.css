@@ -26,7 +26,7 @@ h2 {
 }
 
 td[data-label="1"] {
-    
+   
     color: rgb(115, 245, 145);
     font-weight: bold;
 
@@ -57,16 +57,16 @@ table th {
 
 @media (max-width: 500px) {
     .table thead {
-        display: table-header-group; 
+        display: block; 
         width: 100%;
       
     }
     .table, .table tbody, table tr, table td   {
         width: 100%;
-
+       
     }
     .table rd {
-        margin-bottom: 1rem;
+        margin-bottom: 1.5rem;
     }
 
 }
