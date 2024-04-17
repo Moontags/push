@@ -13,9 +13,16 @@ body {
     box-sizing: border-box;
 }
 
+
 h1 {
     font-size: 45px;
     text-align: center;
+    color: steelblue;
+}
+
+h3 {
+    text-align: center;
+    color: yellow;
 }
 
 table {
